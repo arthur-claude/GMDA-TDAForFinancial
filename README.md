@@ -67,7 +67,7 @@ pyconda manage.py dataset <\subcommand>
 |  visualise     | visualise the dataset   | --log <br/> --save    |
 
 #### Landscape
-Access to the landscape persistence
+Access to the persistence landscape
 ```bash
 pyconda manage.py landscape <\subcommand>
 ```
@@ -78,7 +78,7 @@ pyconda manage.py landscape <\subcommand>
 |  clean     | clean the hidden working database   |  |
 
 #### Norm
-Access to the norm L1 & L2 of the persistence
+Access to the norm L1 & L2 of the persistence landscapes
 ```bash
 pyconda manage.py norm <\subcommand>
 ```
@@ -91,7 +91,7 @@ pyconda manage.py norm <\subcommand>
 
 
 #### Bottleneck
-Access to the bottleneck of the persistence
+Access to the consecutive bottleneck distances between the persistence landscapes
 ```bash
 pyconda manage.py bottleneck <\subcommand>
 ```
